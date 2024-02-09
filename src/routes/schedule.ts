@@ -10,7 +10,7 @@ const obsoleteProps: (keyof RawScheduleItem)[] = [
   "Session5DateUtc",
 ];
 
-export function processScheduleArray(array: RawScheduleItem[]): ScheduleItem[] {
+function processScheduleArray(array: RawScheduleItem[]): ScheduleItem[] {
   const newArray: ScheduleItem[] = [];
 
   for (const item of array) {
