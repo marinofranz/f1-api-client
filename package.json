@@ -1,0 +1,41 @@
+{
+  "name": "@marinocodes/f1-api-client",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "F1 API Client for https://f1.marino.codes - TypeScript declarations included",
+  "main": "dist",
+  "typings": "dist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marinofranz/f1-api-client"
+  },
+  "scripts": {
+    "prepublish": "npm run test && npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "f1",
+    "formulaone",
+    "formula-one",
+    "f1-api"
+  ],
+  "author": {
+    "email": "me@marino.codes",
+    "name": "Marino Franz",
+    "url": "https://marino.codes"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.17",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
