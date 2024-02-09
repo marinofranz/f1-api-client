@@ -1,6 +1,6 @@
 {
   "name": "@marinocodes/f1-api-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "F1 API Client for https://f1.marino.codes - TypeScript declarations included",
   "main": "dist",
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/marinofranz/f1-api-client.git"
   },
   "scripts": {
-    "prepublish": "npm run test && npm run build",
+    "prepublishOnly": "npm run test && npm run build",
     "build": "tsc",
     "test": "jest"
   },
