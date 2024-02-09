@@ -7,7 +7,7 @@
   "typings": "dist",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marinofranz/f1-api-client"
+    "url": "git+https://github.com/marinofranz/f1-api-client.git"
   },
   "scripts": {
     "prepublish": "npm run test && npm run build",
