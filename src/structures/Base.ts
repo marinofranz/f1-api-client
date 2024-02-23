@@ -6,7 +6,7 @@
 export abstract class Base<T> {
   private raw: T;
 
-  constructor(data: T){
-    this.raw = data
+  constructor(data: T) {
+    this.raw = data;
   }
 }

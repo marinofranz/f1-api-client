@@ -19,14 +19,14 @@ export class Session extends Base<SessionData> {
   public date: Date;
   public event: Event;
 
-  constructor(data: SessionData, parent: Event){
-    super(data)
+  constructor(data: SessionData, parent: Event) {
+    super(data);
 
     /**
      * The event this session belongs to.
      * @type {Event}
      */
-    this.event = parent
+    this.event = parent;
 
     /**
      * The number of the session, in order. (e.g. 1 for "Practice 1")

@@ -1,35 +1,20 @@
-import { http } from "../utils/http";
-import { deleteProps, nullify, stringsToDates } from "../utils/mutation";
-import { RawScheduleItem, ScheduleItem } from "../types";
+import axios from "axios";
+import { RawScheduleItem } from "../types";
+import { baseUrl } from "../constants";
+import { Schedule } from "../structures/Schedule";
 
-const obsoleteProps: (keyof RawScheduleItem)[] = [
-  "Session1DateUtc",
-  "Session2DateUtc",
-  "Session3DateUtc",
-  "Session4DateUtc",
-  "Session5DateUtc",
-];
+const rest = axios.create({
+  baseURL: `${baseUrl}/schedule`,
+});
 
-function processScheduleArray(array: RawScheduleItem[]): ScheduleItem[] {
-  const newArray: ScheduleItem[] = [];
-
-  for (const item of array) {
-    const processed = nullify(stringsToDates(item));
-    const finalItem = deleteProps(processed, obsoleteProps) as ScheduleItem;
-
-    newArray.push(finalItem);
-  }
-
-  return newArray;
-}
 /**
  * Get the F1 schedule for the current year.
  * @returns {Promise<ScheduleItem[]>}
  */
-async function getCurrentSchedule() {
+export async function current(): Promise<Schedule> {
   try {
-    const { data } = await http.get<RawScheduleItem[]>("/schedule/");
-    return processScheduleArray(data);
+    const { data } = await rest.get<RawScheduleItem[]>("/");
+    return new Schedule(data);
   } catch (error) {
     console.error(error);
     throw new Error("Couldn't fetch schedule");
@@ -40,10 +25,10 @@ async function getCurrentSchedule() {
  * Get the remaining events on the F1 schedule for the current year.
  * @returns {Promise<ScheduleItem[]>}
  */
-async function getRemainingEvents() {
+export async function remaining(): Promise<Schedule> {
   try {
-    const { data } = await http.get<RawScheduleItem[]>("/schedule/remaining");
-    return processScheduleArray(data);
+    const { data } = await rest.get<RawScheduleItem[]>("/remaining");
+    return new Schedule(data);
   } catch (error) {
     console.error(error);
     throw new Error("Couldn't fetch schedule");
@@ -55,22 +40,12 @@ async function getRemainingEvents() {
  * @param {number} year The year to fetch from.
  * @returns {Promise<ScheduleItem[]>}
  */
-async function getScheduleBySeason(year: number) {
-  if (typeof year !== "number") throw new Error("'year' is not a number");
-
+export async function year(year: number): Promise<Schedule> {
   try {
-    const { data } = await http.get<RawScheduleItem[]>(
-      `/schedule/season/${year}`
-    );
-    return processScheduleArray(data);
+    const { data } = await rest.get<RawScheduleItem[]>(`/season/${year}`);
+    return new Schedule(data);
   } catch (error) {
     console.error(error);
     throw new Error("Couldn't fetch schedule");
   }
 }
-
-export const schedule = {
-  getCurrentSchedule,
-  getRemainingEvents,
-  getScheduleBySeason,
-};

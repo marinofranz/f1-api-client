@@ -8,14 +8,14 @@ import { Event } from "./Event";
  * @extends {Base}
  */
 export class Schedule extends Base<RawScheduleItem[]> {
-  public events: Event[]
+  public events: Event[];
 
   constructor(data: RawScheduleItem[]) {
-    super(data)
-    this.events = []
+    super(data);
+    this.events = [];
 
-    for (const eventData of data){
-      this.events.push(new Event(eventData, this))
+    for (const eventData of data) {
+      this.events.push(new Event(eventData, this));
     }
   }
 
@@ -25,6 +25,9 @@ export class Schedule extends Base<RawScheduleItem[]> {
    * @returns {(Event | null)}
    */
   round(number: number): Event | null {
-
+    const foundEvent = this.events.find(
+      (event) => event.roundNumber === number
+    );
+    return foundEvent || null;
   }
 }

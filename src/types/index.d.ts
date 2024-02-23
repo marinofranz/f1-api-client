@@ -31,24 +31,3 @@ export interface RawScheduleItem {
 
   F1ApiSupport: boolean;
 }
-
-type NullableDateProperties = "Session4Date" | "Session5Date";
-type NonNullableDateProperties =
-  | "Session1Date"
-  | "Session2Date"
-  | "Session3Date";
-type OmittedUtcProperties =
-  | "Session1DateUtc"
-  | "Session2DateUtc"
-  | "Session3DateUtc"
-  | "Session4DateUtc"
-  | "Session5DateUtc";
-
-export type ScheduleItem = Omit<
-  RawScheduleItem,
-  NullableDateProperties | OmittedUtcProperties
-> & {
-  [K in NonNullableDateProperties]: Date;
-} & {
-  [K in NullableDateProperties]?: Date | null;
-};
