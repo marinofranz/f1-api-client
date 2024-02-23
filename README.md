@@ -41,7 +41,7 @@ Get a practice session by its number.
 
 **Requires:** `practiceNumber` - [`Number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) - The number of the practice session. (e.g. 1 for "Practice 1")
 
-**Returns**: A promise that resolves to an [`Session`](./src/structures/Session.ts)
+**Returns**: A promise that resolves to a [`Session`](./src/structures/Session.ts)
 
 ###### [`session`](./src/structures/Event.ts#L151)
 
@@ -49,7 +49,7 @@ Get a session by its number.
 
 **Requires:** `sessionNumber` - [`Number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) - The number of the practice session.
 
-**Returns**: A promise that resolves to an [`Session`](./src/structures/Session.ts)
+**Returns**: A promise that resolves to a [`Session`](./src/structures/Session.ts)
 
 #### Methods
 
