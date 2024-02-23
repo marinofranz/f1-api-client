@@ -22,7 +22,10 @@ function processScheduleArray(array: RawScheduleItem[]): ScheduleItem[] {
 
   return newArray;
 }
-
+/**
+ * Get the F1 schedule for the current year.
+ * @returns {Promise<ScheduleItem[]>}
+ */
 async function getCurrentSchedule() {
   try {
     const { data } = await http.get<RawScheduleItem[]>("/schedule/");
@@ -33,6 +36,10 @@ async function getCurrentSchedule() {
   }
 }
 
+/**
+ * Get the remaining events on the F1 schedule for the current year.
+ * @returns {Promise<ScheduleItem[]>}
+ */
 async function getRemainingEvents() {
   try {
     const { data } = await http.get<RawScheduleItem[]>("/schedule/remaining");
@@ -43,6 +50,11 @@ async function getRemainingEvents() {
   }
 }
 
+/**
+ * Get the schedule by a specific season, by year.
+ * @param {number} year The year to fetch from.
+ * @returns {Promise<ScheduleItem[]>}
+ */
 async function getScheduleBySeason(year: number) {
   if (typeof year !== "number") throw new Error("'year' is not a number");
 
