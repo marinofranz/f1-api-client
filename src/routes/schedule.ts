@@ -1,5 +1,5 @@
-import { http } from "../lib/http";
-import { deleteProps, nullify, stringsToDates } from "../lib/mutation";
+import { http } from "../utils/http";
+import { deleteProps, nullify, stringsToDates } from "../utils/mutation";
 import { RawScheduleItem, ScheduleItem } from "../types";
 
 const obsoleteProps: (keyof RawScheduleItem)[] = [
