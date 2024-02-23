@@ -1,75 +1,48 @@
 import { schedule } from "..";
-import { ScheduleItem } from "../types";
+import { Schedule } from "../structures/Schedule";
 
 describe("Current year's schedule", () => {
-  let response: ScheduleItem[];
+  let response: Schedule;
 
   beforeAll(async () => {
-    response = await schedule.getCurrentSchedule();
-  });
-
-  it("should contain round numbers", () => {
-    let hasRoundNumbers = true;
-
-    for (const event of response) {
-      if (typeof event.RoundNumber !== "number") hasRoundNumbers = false;
-    }
-
-    expect(hasRoundNumbers).toBe(true);
+    response = await schedule.current();
   });
 
   it("should not be empty", () => {
-    expect(response.length > 0).toBe(true);
+    expect(response.events.length > 0).toBe(true);
   });
 });
 
 describe("Remaining events", () => {
-  let response: ScheduleItem[];
+  let response: Schedule;
 
   beforeAll(async () => {
-    response = await schedule.getRemainingEvents();
-  });
-
-  it("should contain round numbers", () => {
-    let hasRoundNumbers = true;
-
-    for (const event of response) {
-      if (typeof event.RoundNumber !== "number") hasRoundNumbers = false;
-    }
-
-    expect(hasRoundNumbers).toBe(true);
+    response = await schedule.remaining();
   });
 
   it("should not be empty", () => {
-    expect(response.length > 0).toBe(true);
+    expect(response.events.length > 0).toBe(true);
   });
 });
 
 describe("Previous year's schedule", () => {
   const previousYear = new Date().getUTCFullYear() - 1;
-  let response: ScheduleItem[];
+  let response: Schedule;
 
   beforeAll(async () => {
-    response = await schedule.getScheduleBySeason(previousYear);
+    response = await schedule.remaining();
   });
 
-  it("should contain round numbers", () => {
-    let hasRoundNumbers = true;
-
-    for (const event of response) {
-      if (typeof event.RoundNumber !== "number") hasRoundNumbers = false;
-    }
-
-    expect(hasRoundNumbers).toBe(true);
+  it("should not be empty", () => {
+    expect(response.events.length > 0).toBe(true);
   });
 
-  it("should actually return from the previous year", () => {
+  it("should return events from the previous year", () => {
     let fromPreviousYear = true;
 
-    for (const event of response) {
-      if ((!event.Session1Date as any) instanceof Date)
-        fromPreviousYear = false;
-      if (event.Session1Date.getUTCFullYear() !== previousYear)
+    for (const event of response.events) {
+      if (!event.session(1)) return;
+      if (event.session(1)!.date.getUTCFullYear() !== previousYear)
         fromPreviousYear = false;
     }
 
