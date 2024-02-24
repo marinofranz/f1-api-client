@@ -88,6 +88,13 @@ export class Event extends Base<RawScheduleItem> {
 
         const sessionNumber = parseInt(key.charAt(7));
 
+        currentSession.number = sessionNumber;
+        if (key.endsWith(sessionNumber.toString())) {
+          currentSession.name = value as string;
+        } else if (key.endsWith("Date")) {
+          currentSession.date = new Date(value as string);
+        }
+
         if (
           currentSession.number &&
           currentSession.name &&
@@ -95,13 +102,6 @@ export class Event extends Base<RawScheduleItem> {
         ) {
           this.sessions.push(new Session(currentSession as SessionData, this));
           currentSession = {};
-        }
-
-        currentSession.number = sessionNumber;
-        if (key.endsWith(sessionNumber.toString())) {
-          currentSession.name = value as string;
-        } else if (key.endsWith("Date")) {
-          currentSession.date = new Date(value as string);
         }
       }
     }
