@@ -10,7 +10,7 @@
     "url": "git+https://github.com/marinofranz/f1-api-client.git"
   },
   "scripts": {
-    "prepublishOnly": "npm run test && npm run build",
+    "prepublishOnly": "npm run build && npm run test",
     "build": "tsc",
     "test": "jest"
   },
