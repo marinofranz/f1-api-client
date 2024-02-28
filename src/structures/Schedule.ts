@@ -8,6 +8,10 @@ import { Event } from "./Event";
  * @extends {Base}
  */
 export class Schedule extends Base<RawScheduleItem[]> {
+  /**
+   * An array of events that belong to the schedule.
+   * @type {Event[]}
+   */
   public events: Event[];
 
   constructor(data: RawScheduleItem[]) {

@@ -13,71 +13,71 @@ type TemporarySession = Partial<SessionData>;
  * @extends {Base}
  */
 export class Event extends Base<RawScheduleItem> {
+  /**
+   * The round number of the event.
+   * @type {number}
+   */
   public roundNumber: number;
+
+  /**
+   * The country the event takes place in.
+   * @type {string}
+   */
   public country: string;
+
+  /**
+   * The location the event takes place in. This is usually a city or an area.
+   * @type {string}
+   */
   public location: string;
+
+  /**
+   * The schedule this event belongs to.
+   * @type {Schedule}
+   */
   public schedule: Schedule;
+
+  /**
+   * The official event name, with sponsors, etc.
+   * @type {string}
+   */
   public officialEventName: string;
+
+  /**
+   * The date of the event, which is always at midnight of the same day, in UTC.
+   * @type {Date}
+   */
   public eventDate: Date;
+  /**
+   * The name of the event, without sponsors. This is shorter than the official event name.
+   * @type {string}
+   */
   public eventName: string;
+  /**
+   * The format of the event.
+   * @type {EventFormat}
+   */
   public eventFormat: EventFormat;
+
+  /**
+   * An array of sessions that take place throughout the event.
+   * @type {Session[]}
+   */
   public sessions: Session[];
 
   constructor(data: RawScheduleItem, parent: Schedule) {
     super(data);
 
-    /**
-     * The schedule this event belongs to.
-     * @type {Schedule}
-     */
     this.schedule = parent;
 
-    /**
-     * The round number of the event.
-     * @type {number}
-     */
     this.roundNumber = data.RoundNumber;
-
-    /**
-     * The country the event takes place in.
-     * @type {string}
-     */
     this.country = data.Country;
-
-    /**
-     * The location the event takes place in. This is usually a city or an area.
-     * @type {string}
-     */
     this.location = data.Location;
-
-    /**
-     * The official event name, with sponsors, etc.
-     * @type {string}
-     */
     this.officialEventName = data.OfficialEventName;
-
-    /**
-     * The date of the event, which is always at midnight of the same day, in UTC.
-     * @type {Date}
-     */
     this.eventDate = new Date(data.EventDate);
-
-    /**
-     * The name of the event, without sponsors. This is shorter than the official event name.
-     * @type {string}
-     */
     this.eventName = data.EventName;
-
-    /**
-     * The format of the event.
-     * @type {EventFormat}
-     */
     this.eventFormat = data.EventFormat as EventFormat;
 
-    /**
-     * An array of sessions that take place throughout the event.
-     * @type {Session[]}
-     */
     this.sessions = [];
 
     let currentSession: TemporarySession = {};

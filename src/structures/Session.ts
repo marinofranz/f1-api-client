@@ -20,36 +20,37 @@ export interface SessionData {
  * @extends {Base}
  */
 export class Session extends Base<SessionData> {
+  /**
+   * The number of the session, in order. (e.g. 1 for "Practice 1")
+   * @type {number}
+   */
   public number: number;
+
+  /**
+   * The name of the session.
+   * @type {string}
+   */
   public name: string;
+
+  /**
+   * The start date of the session.
+   * @type {Date}
+   */
   public date: Date;
+
+  /**
+   * The event this session belongs to.
+   * @type {Event}
+   */
   public event: Event;
 
   constructor(data: SessionData, parent: Event) {
     super(data);
 
-    /**
-     * The event this session belongs to.
-     * @type {Event}
-     */
     this.event = parent;
 
-    /**
-     * The number of the session, in order. (e.g. 1 for "Practice 1")
-     * @type {number}
-     */
     this.number = data.number;
-
-    /**
-     * The name of the session.
-     * @type {string}
-     */
     this.name = data.name;
-
-    /**
-     * The start date of the session.
-     * @type {Date}
-     */
     this.date = data.date;
   }
 
