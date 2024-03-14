@@ -3,3 +3,4 @@ src/
 src/tests/
 tsconfig.json
 jest.config.ts
+docs/
