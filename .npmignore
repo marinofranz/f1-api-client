@@ -1,6 +1,6 @@
 node_modules/
 src/
-src/tests/
+dist/tests/
 tsconfig.json
 jest.config.ts
 docs/
