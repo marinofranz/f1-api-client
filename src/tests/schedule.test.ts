@@ -30,7 +30,7 @@ describe("Previous year's schedule", () => {
   let response: Schedule;
 
   beforeAll(async () => {
-    response = await schedule.remaining();
+    response = await schedule.year(previousYear);
   });
 
   it("should not be empty", () => {
