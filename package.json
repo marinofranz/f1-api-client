@@ -3,6 +3,7 @@
   "version": "1.1.4",
   "type": "commonjs",
   "description": "F1 API Client for https://f1.marino.codes - TypeScript declarations included",
+  "homepage": "marinofranz.github.io/f1-api-client/",
   "main": "dist",
   "typings": "dist",
   "repository": {
