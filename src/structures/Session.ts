@@ -15,8 +15,6 @@ export interface SessionData {
 
 /**
  * Represents a session that belongs to an event.
- * @param {SessionData} data Data to process.
- * @param {Event} parent Parent event to set.
  * @extends {Base}
  */
 export class Session extends Base<SessionData> {
@@ -44,6 +42,10 @@ export class Session extends Base<SessionData> {
    */
   public event: Event;
 
+  /**
+   * @param {SessionData} data Data to process.
+   * @param {Event} parent Parent event to set.
+   */
   constructor(data: SessionData, parent: Event) {
     super(data);
 

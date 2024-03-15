@@ -4,7 +4,6 @@ import { Event } from "./Event";
 
 /**
  * Represents an F1 schedule.
- * @param {RawScheduleItem[]} data Data to process.
  * @extends {Base}
  */
 export class Schedule extends Base<RawScheduleItem[]> {
@@ -14,6 +13,9 @@ export class Schedule extends Base<RawScheduleItem[]> {
    */
   public events: Event[];
 
+  /**
+   * @param {RawScheduleItem[]} data Data to process.
+   */
   constructor(data: RawScheduleItem[]) {
     super(data);
     this.events = [];

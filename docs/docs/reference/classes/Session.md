@@ -8,14 +8,6 @@ custom_edit_url: null
 
 Represents a session that belongs to an event.
 
-**`Param`**
-
-Data to process.
-
-**`Param`**
-
-Parent event to set.
-
 ## Hierarchy
 
 - [`Base`](Base.md)\<[`SessionData`](../interfaces/SessionData.md)\>
@@ -30,10 +22,10 @@ Parent event to set.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | [`SessionData`](../interfaces/SessionData.md) |
-| `parent` | [`Event`](Event.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `data` | [`SessionData`](../interfaces/SessionData.md) | Data to process. |
+| `parent` | [`Event`](Event.md) | Parent event to set. |
 
 #### Returns
 
@@ -45,7 +37,7 @@ Parent event to set.
 
 #### Defined in
 
-[structures/Session.ts:47](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L47)
+[structures/Session.ts:49](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L49)
 
 ## Properties
 
@@ -57,7 +49,7 @@ The start date of the session.
 
 #### Defined in
 
-[structures/Session.ts:39](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L39)
+[structures/Session.ts:37](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L37)
 
 ___
 
@@ -69,7 +61,7 @@ The event this session belongs to.
 
 #### Defined in
 
-[structures/Session.ts:45](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L45)
+[structures/Session.ts:43](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L43)
 
 ___
 
@@ -81,7 +73,7 @@ The name of the session.
 
 #### Defined in
 
-[structures/Session.ts:33](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L33)
+[structures/Session.ts:31](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L31)
 
 ___
 
@@ -93,7 +85,7 @@ The number of the session, in order. (e.g. 1 for "Practice 1")
 
 #### Defined in
 
-[structures/Session.ts:27](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L27)
+[structures/Session.ts:25](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L25)
 
 ## Accessors
 
@@ -109,7 +101,7 @@ Get the estimated duration of the session in minutes.
 
 #### Defined in
 
-[structures/Session.ts:79](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L79)
+[structures/Session.ts:81](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L81)
 
 ___
 
@@ -127,4 +119,4 @@ Get the type of the session.
 
 #### Defined in
 
-[structures/Session.ts:62](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L62)
+[structures/Session.ts:64](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L64)

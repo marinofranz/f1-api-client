@@ -8,10 +8,6 @@ custom_edit_url: null
 
 Represents an F1 schedule.
 
-**`Param`**
-
-Data to process.
-
 ## Hierarchy
 
 - [`Base`](Base.md)\<[`RawScheduleItem`](../interfaces/RawScheduleItem.md)[]\>
@@ -26,9 +22,9 @@ Data to process.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | [`RawScheduleItem`](../interfaces/RawScheduleItem.md)[] |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `data` | [`RawScheduleItem`](../interfaces/RawScheduleItem.md)[] | Data to process. |
 
 #### Returns
 
@@ -40,7 +36,7 @@ Data to process.
 
 #### Defined in
 
-[structures/Schedule.ts:17](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L17)
+[structures/Schedule.ts:19](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L19)
 
 ## Properties
 
@@ -52,7 +48,7 @@ An array of events that belong to the schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:15](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L15)
+[structures/Schedule.ts:14](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L14)
 
 ## Methods
 
@@ -74,4 +70,4 @@ Get an event by its round number on the schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:31](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L31)
+[structures/Schedule.ts:33](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L33)

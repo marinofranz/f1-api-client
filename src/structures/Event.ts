@@ -8,8 +8,6 @@ type TemporarySession = Partial<SessionData>;
 
 /**
  * Represents an event that belongs to a schedule.
- * @param {RawScheduleItem} data Data to process.
- * @param {Schedule} parent Parent schedule to set.
  * @extends {Base}
  */
 export class Event extends Base<RawScheduleItem> {
@@ -65,6 +63,10 @@ export class Event extends Base<RawScheduleItem> {
    */
   public sessions: Session[];
 
+  /**
+   * @param {RawScheduleItem} data Data to process.
+   * @param {Schedule} parent Parent schedule to set.
+   */
   constructor(data: RawScheduleItem, parent: Schedule) {
     super(data);
 
