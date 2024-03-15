@@ -1,7 +1,7 @@
 import { Base } from "./Base";
 import { Event } from "./Event";
 
-type SessionType =
+export type SessionType =
   | "practice"
   | "qualifying"
   | "sprint_shootout"

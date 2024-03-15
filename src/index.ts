@@ -1,8 +1,5 @@
 /* Exporting classes (structures) */
-export { Base } from "./structures/Base";
-export { Schedule } from "./structures/Schedule";
-export { Event } from "./structures/Event";
-export { Session } from "./structures/Session";
+export * from "./structures";
 
 /* Exporting routes */
 export * as schedule from "./routes/schedule";

@@ -9,7 +9,7 @@ const rest = axios.create({
 
 /**
  * Get the F1 schedule for the current year.
- * @returns {Promise<ScheduleItem[]>}
+ * @returns {Promise<Schedule>}
  */
 export async function current(): Promise<Schedule> {
   try {
@@ -23,7 +23,7 @@ export async function current(): Promise<Schedule> {
 
 /**
  * Get the remaining events on the F1 schedule for the current year.
- * @returns {Promise<ScheduleItem[]>}
+ * @returns {Promise<Schedule>}
  */
 export async function remaining(): Promise<Schedule> {
   try {
@@ -38,7 +38,7 @@ export async function remaining(): Promise<Schedule> {
 /**
  * Get the schedule by a specific season, by year.
  * @param {number} year The year to fetch from.
- * @returns {Promise<ScheduleItem[]>}
+ * @returns {Promise<Schedule>}
  */
 export async function year(year: number): Promise<Schedule> {
   try {
