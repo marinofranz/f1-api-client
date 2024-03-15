@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+slug: /
+---
+
+import { InstallTabs } from "@site/src/components/InstallTabs"
+
+# Introduction
+
+This Node.js package allows you to use [Marino's F1 API](https://f1.marino.codes/docs) in Node.js without the hassle of manually taking care of the URL, and the return types. This package will always return typed responses.
+
+## Installation
+
+You can install `@marinocodes/f1-api-client` via any package manager that uses the `npm` registry.
+
+<InstallTabs pkg="@marinocodes/f1-api-client" />
+
+## Example usage
+
+```ts
+import { schedule } from "@marinocodes/f1-api-client"
+
+const currentSchedule = await schedule.current()
+const { roundNumber } = currentSchedule.round(1)
+console.log(roundNumber) // output -> 1
+```
+
+## Contributions
+
+You're free to make whatever contributions you can to the package. However, it is at my discretion whether to merge pull requests and I will close any PRs that do not benefit the package.
+
+Any questions? Contact me via [email](mailto:me@marino.codes).

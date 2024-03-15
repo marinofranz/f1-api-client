@@ -45,10 +45,33 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "docusaurus-plugin-typedoc",
+      {
+        entryPoints: ["../src/index.ts"],
+        readme: "none",
+        tsconfig: "../tsconfig.json",
+        out: "reference",
+        sidebar: {
+          categoryLabel: "Reference",
+          position: 99,
+        },
+        watch: process.env.TYPEDOC_WATCH,
+      },
+    ],
+  ],
+
   themeConfig: {
     navbar: {
       title: "@marinocodes/f1-api-client",
       items: [
+        {
+          type: "doc",
+          position: "left",
+          docId: "intro",
+          label: "Docs",
+        },
         {
           href: "https://github.com/marinofranz/f1-api-client",
           label: "GitHub",
@@ -62,7 +85,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
 };
