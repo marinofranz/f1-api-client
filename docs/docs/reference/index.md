@@ -30,4 +30,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[structures/Session.ts:4](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L4)
+[structures/Session.ts:4](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L4)

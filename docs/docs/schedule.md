@@ -16,7 +16,7 @@ import { schedule } from "@marinocodes/f1-api-client"
 Get the F1 schedule for the current year.
 
 #### Returns
-[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to [Schedule](../reference/schedule)
+[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to a Schedule
 
 #### Example
 
@@ -29,7 +29,7 @@ await schedule.current()
 Get the remaining events on the F1 schedule for the current year.
 
 #### Returns
-[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to [Schedule](../reference/schedule)
+[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to a Schedule
 
 #### Example
 
@@ -45,7 +45,7 @@ Get the schedule by a specific season, by year.
 `year` ([Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)) - The year to fetch from.
 
 #### Returns
-[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to [Schedule](../reference/schedule)
+[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that resolves to a Schedule
 
 #### Example
 

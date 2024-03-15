@@ -14,7 +14,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[structures/Session.ts:13](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L13)
+[structures/Session.ts:13](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L13)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 #### Defined in
 
-[structures/Session.ts:12](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L12)
+[structures/Session.ts:12](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L12)
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 #### Defined in
 
-[structures/Session.ts:11](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L11)
+[structures/Session.ts:11](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L11)

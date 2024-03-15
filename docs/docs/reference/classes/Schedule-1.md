@@ -40,7 +40,7 @@ Data to process.
 
 #### Defined in
 
-[structures/Schedule.ts:17](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Schedule.ts#L17)
+[structures/Schedule.ts:17](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L17)
 
 ## Properties
 
@@ -52,7 +52,7 @@ An array of events that belong to the schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:15](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Schedule.ts#L15)
+[structures/Schedule.ts:15](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L15)
 
 ## Methods
 
@@ -74,4 +74,4 @@ Get an event by its round number on the schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:31](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Schedule.ts#L31)
+[structures/Schedule.ts:31](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L31)

@@ -45,7 +45,7 @@ Parent schedule to set.
 
 #### Defined in
 
-[structures/Event.ts:68](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L68)
+[structures/Event.ts:68](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L68)
 
 ## Properties
 
@@ -57,7 +57,7 @@ The country the event takes place in.
 
 #### Defined in
 
-[structures/Event.ts:26](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L26)
+[structures/Event.ts:26](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L26)
 
 ___
 
@@ -69,7 +69,7 @@ The date of the event, which is always at midnight of the same day, in UTC.
 
 #### Defined in
 
-[structures/Event.ts:50](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L50)
+[structures/Event.ts:50](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L50)
 
 ___
 
@@ -81,7 +81,7 @@ The format of the event.
 
 #### Defined in
 
-[structures/Event.ts:60](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L60)
+[structures/Event.ts:60](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L60)
 
 ___
 
@@ -93,7 +93,7 @@ The name of the event, without sponsors. This is shorter than the official event
 
 #### Defined in
 
-[structures/Event.ts:55](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L55)
+[structures/Event.ts:55](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L55)
 
 ___
 
@@ -105,7 +105,7 @@ The location the event takes place in. This is usually a city or an area.
 
 #### Defined in
 
-[structures/Event.ts:32](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L32)
+[structures/Event.ts:32](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L32)
 
 ___
 
@@ -117,7 +117,7 @@ The official event name, with sponsors, etc.
 
 #### Defined in
 
-[structures/Event.ts:44](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L44)
+[structures/Event.ts:44](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L44)
 
 ___
 
@@ -129,7 +129,7 @@ The round number of the event.
 
 #### Defined in
 
-[structures/Event.ts:20](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L20)
+[structures/Event.ts:20](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L20)
 
 ___
 
@@ -141,7 +141,7 @@ The schedule this event belongs to.
 
 #### Defined in
 
-[structures/Event.ts:38](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L38)
+[structures/Event.ts:38](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L38)
 
 ___
 
@@ -153,7 +153,7 @@ An array of sessions that take place throughout the event.
 
 #### Defined in
 
-[structures/Event.ts:66](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L66)
+[structures/Event.ts:66](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L66)
 
 ## Accessors
 
@@ -169,7 +169,7 @@ Whether the event is a sprint weekend.
 
 #### Defined in
 
-[structures/Event.ts:124](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L124)
+[structures/Event.ts:124](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L124)
 
 ___
 
@@ -185,7 +185,7 @@ Whether the event is pre-season testing.
 
 #### Defined in
 
-[structures/Event.ts:115](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L115)
+[structures/Event.ts:115](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L115)
 
 ## Methods
 
@@ -207,7 +207,7 @@ Get a practice session by its number.
 
 #### Defined in
 
-[structures/Event.ts:135](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L135)
+[structures/Event.ts:135](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L135)
 
 ___
 
@@ -229,4 +229,4 @@ Get a session by its number,
 
 #### Defined in
 
-[structures/Event.ts:151](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Event.ts#L151)
+[structures/Event.ts:151](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Event.ts#L151)

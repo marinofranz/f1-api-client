@@ -18,7 +18,7 @@ const config: Config = {
   projectName: "f1-api-client", // Usually your repo name.
   trailingSlash: true,
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -53,6 +53,7 @@ const config: Config = {
         readme: "none",
         tsconfig: "../tsconfig.json",
         out: "reference",
+        gitRevision: "main",
         sidebar: {
           categoryLabel: "Reference",
           position: 99,

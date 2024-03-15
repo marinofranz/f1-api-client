@@ -45,7 +45,7 @@ Parent event to set.
 
 #### Defined in
 
-[structures/Session.ts:47](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L47)
+[structures/Session.ts:47](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L47)
 
 ## Properties
 
@@ -57,7 +57,7 @@ The start date of the session.
 
 #### Defined in
 
-[structures/Session.ts:39](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L39)
+[structures/Session.ts:39](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L39)
 
 ___
 
@@ -69,7 +69,7 @@ The event this session belongs to.
 
 #### Defined in
 
-[structures/Session.ts:45](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L45)
+[structures/Session.ts:45](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L45)
 
 ___
 
@@ -81,7 +81,7 @@ The name of the session.
 
 #### Defined in
 
-[structures/Session.ts:33](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L33)
+[structures/Session.ts:33](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L33)
 
 ___
 
@@ -93,7 +93,7 @@ The number of the session, in order. (e.g. 1 for "Practice 1")
 
 #### Defined in
 
-[structures/Session.ts:27](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L27)
+[structures/Session.ts:27](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L27)
 
 ## Accessors
 
@@ -109,7 +109,7 @@ Get the estimated duration of the session in minutes.
 
 #### Defined in
 
-[structures/Session.ts:79](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L79)
+[structures/Session.ts:79](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L79)
 
 ___
 
@@ -127,4 +127,4 @@ Get the type of the session.
 
 #### Defined in
 
-[structures/Session.ts:62](https://github.com/marinofranz/f1-api-client/blob/7a7ebf9/src/structures/Session.ts#L62)
+[structures/Session.ts:62](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L62)
