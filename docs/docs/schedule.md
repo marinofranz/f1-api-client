@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Importing
 
 ```ts
-import { schedule } from "@marinocodes/f1-api-client"
+import { schedule } from "f1.ts"
 ```
 
 ## Methods

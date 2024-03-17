@@ -37,7 +37,7 @@ Represents a session that belongs to an event.
 
 #### Defined in
 
-[structures/Session.ts:49](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L49)
+[structures/Session.ts:49](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L49)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The start date of the session.
 
 #### Defined in
 
-[structures/Session.ts:37](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L37)
+[structures/Session.ts:37](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L37)
 
 ___
 
@@ -61,7 +61,7 @@ The event this session belongs to.
 
 #### Defined in
 
-[structures/Session.ts:43](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L43)
+[structures/Session.ts:43](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L43)
 
 ___
 
@@ -73,7 +73,7 @@ The name of the session.
 
 #### Defined in
 
-[structures/Session.ts:31](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L31)
+[structures/Session.ts:31](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L31)
 
 ___
 
@@ -85,7 +85,7 @@ The number of the session, in order. (e.g. 1 for "Practice 1")
 
 #### Defined in
 
-[structures/Session.ts:25](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L25)
+[structures/Session.ts:25](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L25)
 
 ## Accessors
 
@@ -101,7 +101,7 @@ Get the estimated duration of the session in minutes.
 
 #### Defined in
 
-[structures/Session.ts:81](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L81)
+[structures/Session.ts:81](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L81)
 
 ___
 
@@ -119,4 +119,4 @@ Get the type of the session.
 
 #### Defined in
 
-[structures/Session.ts:64](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L64)
+[structures/Session.ts:64](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L64)

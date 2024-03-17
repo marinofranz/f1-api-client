@@ -36,7 +36,7 @@ Represents an F1 schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:19](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L19)
+[structures/Schedule.ts:19](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Schedule.ts#L19)
 
 ## Properties
 
@@ -48,7 +48,7 @@ An array of events that belong to the schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:14](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L14)
+[structures/Schedule.ts:14](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Schedule.ts#L14)
 
 ## Methods
 
@@ -70,4 +70,4 @@ Get an event by its round number on the schedule.
 
 #### Defined in
 
-[structures/Schedule.ts:33](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Schedule.ts#L33)
+[structures/Schedule.ts:33](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Schedule.ts#L33)

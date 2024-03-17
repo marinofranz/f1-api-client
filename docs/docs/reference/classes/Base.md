@@ -50,7 +50,7 @@ The base for a data model.
 
 #### Defined in
 
-[structures/Base.ts:9](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Base.ts#L9)
+[structures/Base.ts:9](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Base.ts#L9)
 
 ## Properties
 
@@ -60,4 +60,4 @@ The base for a data model.
 
 #### Defined in
 
-[structures/Base.ts:7](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Base.ts#L7)
+[structures/Base.ts:7](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Base.ts#L7)

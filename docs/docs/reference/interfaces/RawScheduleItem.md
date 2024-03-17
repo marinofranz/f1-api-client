@@ -14,7 +14,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[types/index.d.ts:5](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L5)
+[types/index.d.ts:5](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L5)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:8](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L8)
+[types/index.d.ts:8](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L8)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:10](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L10)
+[types/index.d.ts:10](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L10)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:9](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L9)
+[types/index.d.ts:9](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L9)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:32](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L32)
+[types/index.d.ts:32](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L32)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:6](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L6)
+[types/index.d.ts:6](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L6)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:7](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L7)
+[types/index.d.ts:7](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L7)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:4](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L4)
+[types/index.d.ts:4](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L4)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:12](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L12)
+[types/index.d.ts:12](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L12)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:13](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L13)
+[types/index.d.ts:13](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L13)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:14](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L14)
+[types/index.d.ts:14](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L14)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:16](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L16)
+[types/index.d.ts:16](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L16)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:17](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L17)
+[types/index.d.ts:17](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L17)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:18](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L18)
+[types/index.d.ts:18](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L18)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:20](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L20)
+[types/index.d.ts:20](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L20)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:21](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L21)
+[types/index.d.ts:21](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L21)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:22](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L22)
+[types/index.d.ts:22](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L22)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:24](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L24)
+[types/index.d.ts:24](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L24)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:25](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L25)
+[types/index.d.ts:25](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L25)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:26](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L26)
+[types/index.d.ts:26](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L26)
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:28](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L28)
+[types/index.d.ts:28](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L28)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:29](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L29)
+[types/index.d.ts:29](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L29)
 
 ___
 
@@ -234,4 +234,4 @@ ___
 
 #### Defined in
 
-[types/index.d.ts:30](https://github.com/marinofranz/f1-api-client/blob/main/src/types/index.d.ts#L30)
+[types/index.d.ts:30](https://github.com/marinofranz/f1.ts/blob/main/src/types/index.d.ts#L30)

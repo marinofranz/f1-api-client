@@ -1,6 +1,6 @@
 ---
 id: "index"
-title: "@marinocodes/f1-api-client"
+title: "f1.ts"
 sidebar_label: "Exports"
 sidebar_position: 0.5
 custom_edit_url: null
@@ -30,4 +30,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[structures/Session.ts:4](https://github.com/marinofranz/f1-api-client/blob/main/src/structures/Session.ts#L4)
+[structures/Session.ts:4](https://github.com/marinofranz/f1.ts/blob/main/src/structures/Session.ts#L4)

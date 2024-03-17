@@ -20,7 +20,7 @@ Get the F1 schedule for the current year.
 
 #### Defined in
 
-[routes/schedule.ts:14](https://github.com/marinofranz/f1-api-client/blob/main/src/routes/schedule.ts#L14)
+[routes/schedule.ts:14](https://github.com/marinofranz/f1.ts/blob/main/src/routes/schedule.ts#L14)
 
 ___
 
@@ -36,7 +36,7 @@ Get the remaining events on the F1 schedule for the current year.
 
 #### Defined in
 
-[routes/schedule.ts:28](https://github.com/marinofranz/f1-api-client/blob/main/src/routes/schedule.ts#L28)
+[routes/schedule.ts:28](https://github.com/marinofranz/f1.ts/blob/main/src/routes/schedule.ts#L28)
 
 ___
 
@@ -58,4 +58,4 @@ Get the schedule by a specific season, by year.
 
 #### Defined in
 
-[routes/schedule.ts:43](https://github.com/marinofranz/f1-api-client/blob/main/src/routes/schedule.ts#L43)
+[routes/schedule.ts:43](https://github.com/marinofranz/f1.ts/blob/main/src/routes/schedule.ts#L43)

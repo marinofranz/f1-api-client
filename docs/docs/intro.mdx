@@ -11,14 +11,14 @@ This Node.js package allows you to use [Marino's F1 API](https://f1.marino.codes
 
 ## Installation
 
-You can install `@marinocodes/f1-api-client` via any package manager that uses the `npm` registry.
+You can install `f1.ts` via any package manager that uses the `npm` registry.
 
-<InstallTabs pkg="@marinocodes/f1-api-client" />
+<InstallTabs pkg="f1.ts" />
 
 ## Example usage
 
 ```ts
-import { schedule } from "@marinocodes/f1-api-client"
+import { schedule } from "f1.ts"
 
 const currentSchedule = await schedule.current()
 const { roundNumber } = currentSchedule.round(1)

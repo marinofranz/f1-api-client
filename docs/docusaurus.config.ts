@@ -3,19 +3,20 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "@marinocodes/f1-api-client",
-  tagline: "F1 API Client in Node.js",
+  title: "f1.ts",
+  tagline:
+    "Formula 1 API client, designed with TypeScript compatibility in mind",
 
   // Set the production url of your site here
-  url: "https://marinofranz.github.io",
+  url: "https://f1.js.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/f1-api-client",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "marinofranz", // Usually your GitHub org/user name.
-  projectName: "f1-api-client", // Usually your repo name.
+  projectName: "f1.ts", // Usually your repo name.
   trailingSlash: true,
 
   onBrokenLinks: "warn",
@@ -65,7 +66,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: "@marinocodes/f1-api-client",
+      title: "f1.ts",
       items: [
         {
           type: "doc",
@@ -74,7 +75,7 @@ const config: Config = {
           label: "Docs",
         },
         {
-          href: "https://github.com/marinofranz/f1-api-client",
+          href: "https://github.com/marinofranz/f1.ts",
           label: "GitHub",
           position: "right",
         },

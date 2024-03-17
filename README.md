@@ -1,15 +1,17 @@
-# @marinocodes/f1-api-client
-> [Documentation](marinofranz.github.io/f1-api-client/) | [API Documentation](https://f1.marino.codes/docs)
+# f1.ts
+> [Documentation](f1.js.org) | [API Documentation](https://f1.marino.codes/docs)
+
+Formula 1 API client, designed with TypeScript compatibility in mind.
 
 ## How to install
 ```sh
-npm i @marinocodes/f1-api-client
+npm i f1.ts
 ```
 
 ```sh
-yarn add @marinocodes/f1-api-client
+yarn add f1.ts
 ```
 
 ```sh
-pnpm add @marinocodes/f1-api-client
+pnpm add f1.ts
 ```
