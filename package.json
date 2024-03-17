@@ -1,6 +1,6 @@
 {
   "name": "f1.ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "commonjs",
   "description": "Formula 1 API client, designed with TypeScript compatibility in mind",
   "homepage": "f1.js.org",

@@ -1,5 +1,5 @@
 # f1.ts
-> [Documentation](f1.js.org) | [API Documentation](https://f1.marino.codes/docs)
+> [Documentation](https://f1.js.org) | [API Documentation](https://f1.marino.codes/docs)
 
 Formula 1 API client, designed with TypeScript compatibility in mind.
 
